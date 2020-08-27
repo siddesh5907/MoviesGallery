@@ -1,0 +1,107 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background:antiquewhite;  
+}
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(97, 48, 48);
+    z-index: 1;
+}
+.nav h1{
+    margin-left:5px;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+}
+.nav li{
+    margin: 20px;
+    cursor: pointer;
+}
+.nav ul a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.nav ul a:hover{
+    color:brown;
+}
+.container{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headExplore{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.headExplore input{
+    height: 40px;
+}
+.filter{
+    width: 80%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.two-col {
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: left;
+  }
+.two-col select{
+    height: 30px;
+    width: 70%;
+}
+#listContainer{
+    width: 80%;
+}
+.listContent{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.two-col img{
+    width: 90%;
+    height: 100%;
+}
+.two-col h1{
+    color: rgb(112, 56, 56);
+    text-transform: uppercase;
+}
+.two-col input[type="submit"]{
+    width: 50%;
+    height: 40;
+}
+.pageNo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+.pageNo a{
+    margin-left: 20px;
+}
+.footer{
+    color:white;
+    display: flex;
+    align-items: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background: rgb(97, 48, 48);
+    justify-content: center;
+}
